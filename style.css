@@ -15,7 +15,7 @@ body {
     black;
 }
 .background {
-  background-image: url("/image/bg.jpg");
+  background-image: url("image/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -305,7 +305,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/wednesdeay.webp");
+  background-image: url("image/wednesdeay.webp");
 }
 
 .content-1 .item-3 {
@@ -314,7 +314,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/kapil\ show.webp");
+  background-image: url("image/kapil\ show.webp");
 }
 .content-1 .item-4 {
   width: 210px;
@@ -322,7 +322,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/squid\ game.webp");
+  background-image: url("image/squid\ game.webp");
 }
 .content-1 .item-5 {
   width: 210px;
@@ -330,7 +330,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/fall\ for\ me.webp");
+  background-image: url("image/fall\ for\ me.webp");
 }
 .content-1 .item-6 {
   width: 210px;
@@ -338,7 +338,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/sare-jahan-se-accha.webp");
+  background-image: url("image/sare-jahan-se-accha.webp");
 }
 .content-1 .item-7 {
   width: 210px;
@@ -346,7 +346,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/metro-in-dono.webp");
+  background-image: url("image/metro-in-dono.webp");
 }
 .content-1 .item-8 {
   width: 210px;
@@ -354,7 +354,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/raid-2.webp");
+  background-image: url("image/raid-2.webp");
 }
 .content-1 .item-9 {
   width: 210px;
@@ -362,7 +362,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/maa.webp");
+  background-image: url("image/maa.webp");
 }
 .content-1 .item-10 {
   width: 210px;
@@ -370,7 +370,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/kingdom.webp");
+  background-image: url("image/kingdom.webp");
 }
 
 @media (max-width: 768px) {
