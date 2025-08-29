@@ -515,5 +515,13 @@ footer {
     height: 250px;
     padding: 20px;
   }
-
+  .faq-questions {
+    font-size: 1.2rem;
+  }
+   .faq-questions div span{
+    font-size: 3rem;
+   }
+   .btn-bottom input {
+    padding: 15px 130px 15px 10px;
+   }
 }
