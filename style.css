@@ -15,7 +15,7 @@ body {
     black;
 }
 .background {
-  background-image: url("/image/bg.jpg");
+  background-image: url("image/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,13 +129,6 @@ input::placeholder {
 }
 section {
   width: 100%;
-  height: 1000px;
-  background: radial-gradient(
-      50% 500% at 50% -420%,
-      rgba(64, 97, 231, 0.4) 80%,
-      rgba(0, 0, 0, 0.1) 100%
-    ),
-    black;
   background-size: cover;
   background-position: center;
   border-width: 1px;
@@ -305,7 +298,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/wednesdeay.webp");
+  background-image: url("image/wednesdeay.webp");
 }
 
 .content-1 .item-3 {
@@ -314,7 +307,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/kapil\ show.webp");
+  background-image: url("image/kapil\ show.webp");
 }
 .content-1 .item-4 {
   width: 210px;
@@ -322,7 +315,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/squid\ game.webp");
+  background-image: url("image/squid\ game.webp");
 }
 .content-1 .item-5 {
   width: 210px;
@@ -330,7 +323,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/fall\ for\ me.webp");
+  background-image: url("image/fall\ for\ me.webp");
 }
 .content-1 .item-6 {
   width: 210px;
@@ -338,7 +331,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/sare-jahan-se-accha.webp");
+  background-image: url("image/sare-jahan-se-accha.webp");
 }
 .content-1 .item-7 {
   width: 210px;
@@ -346,7 +339,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/metro-in-dono.webp");
+  background-image: url("image/metro-in-dono.webp");
 }
 .content-1 .item-8 {
   width: 210px;
@@ -354,7 +347,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/raid-2.webp");
+  background-image: url("image/raid-2.webp");
 }
 .content-1 .item-9 {
   width: 210px;
@@ -362,7 +355,7 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/maa.webp");
+  background-image: url("image/maa.webp");
 }
 .content-1 .item-10 {
   width: 210px;
@@ -370,8 +363,125 @@ section::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/image/kingdom.webp");
+  background-image: url("image/kingdom.webp");
 }
+
+.more-reasons {
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 70px;
+}
+
+.flex {
+  width: 100vw;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flex div {
+  width: 330px;
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(156deg, #25086c, #160000);
+}
+.flex div h1 {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.flex div p {
+  color: rgb(202, 202, 202);
+  padding: 0px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.flex div img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.faq-questions {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.5em;
+}
+.faq-questions div {
+  width: 100%;
+  height: 90px;
+  padding: 20px 20px;
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-questions div span {
+  font-size: 4rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+.ready-to-watch {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.btn-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-bottom input {
+  padding: 15px 260px 15px 10px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgba(0, 0, 0, 0.755);
+  border-radius: 4px;
+  margin-right: -5px;
+  font-size: 1rem;
+}
+.btn-bottom input::placeholder {
+  color: rgb(176, 176, 176);
+}
+.btn-bottom > button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(181, 49, 8);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-bottom button:hover {
+  opacity: 0.8;
+
+}
+
+footer {
+  width: 80vw;
+  height: 70vh;
+  /* margin: 50px auto;
+  padding: 20px 0; */
+  background-color: #303030;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
   .top-bar {
@@ -381,15 +491,29 @@ section::before {
     flex-direction: column;
     align-items: center;
   }
-  .content-1{
+  .btn-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-1 {
     width: 95%;
     margin: 50px 22px;
     gap: 30px;
   }
-  section::before{
-    
+  section::before {
     padding-left: 18px;
     font-size: 1.5rem;
     line-height: 2rem;
   }
+  .more-reasons {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 20px 20px;
+}
+  .flex div {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+  }
+
 }
