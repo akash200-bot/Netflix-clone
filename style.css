@@ -522,7 +522,7 @@ footer .footer-copy {
 
 @media (max-width: 768px) {
   .top-bar {
-    width: 105%;
+    width: 100%;
   }
   .btn {
     flex-direction: column;
